@@ -67,7 +67,6 @@ export default {
       this.operatorClicked = true
     },
     devide () {
-      // this.operator = function test (aaaa, bbbb) { return aaaa / bbbb }
       this.operator = (a, b) => a / b
       this.setPrevious()
     },
